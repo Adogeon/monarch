@@ -1,0 +1,19 @@
+<script setup>
+  import NavBarVue from './NavBar.vue';
+  import Footer from './Footer.vue';
+</script>
+
+<template>
+  <NavBarVue />
+  <main class="content flex flex-col justify-center">
+    <slot />
+  </main>
+  <Footer/>
+</template>
+
+<style>
+.content {
+      min-height: calc(100vh - 164px);
+      /* 80px header + 40px footer = 120px  */
+    }
+</style>
