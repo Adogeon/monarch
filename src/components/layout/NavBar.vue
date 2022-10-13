@@ -18,7 +18,14 @@
   navbar navbar-expand-lg navbar-light
   mb-6
   ">
+      
     <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+      <div class="container-fluid">
+        <router-link class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" to="/">
+          <img class="mr-2" src="../../assets/IconOnly_NoBuffer.png" style="height: 20px" alt="Logo" loading="lazy" />
+          <span class="font-medium">Monarch Construction</span>
+        </router-link>
+      </div>
       <button class="
       navbar-toggler
       text-gray-500
@@ -38,10 +45,10 @@
         </svg>
       </button>
       <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
-        <a class="text-xl text-black" href="#">Navbar</a>
+      
         <!-- Left links -->
-        <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
-          <li class="nav-item px-2">
+        <ul class="navbar-nav flex flex-col items-end pl-0 list-style-none ml-auto">
+          <li class="nav-item pr-2">
             <router-link class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/service">Service</router-link>
           </li>
           <li class="nav-item pr-2">
