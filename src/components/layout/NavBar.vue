@@ -25,8 +25,8 @@
     <div class="container-fluid w-full flex flex-wrap items-center justify-between h-11 px-6">
       <div class="container-fluid">
         <router-link class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" to="/">
-          <img class="mr-2" src="../../assets/IconOnly_NoBuffer.png" style="height: 20px" alt="Logo" loading="lazy" />
-          <span class="font-medium">Monarch Construction</span>
+          <img class="mr-2" src="../../assets/IconOnly_NoBuffer.png" style="height: 2.75rem" alt="Logo" loading="lazy" />
+          <span class="text-3xl font-bold">Monarch Construction</span>
         </router-link>
       </div>
       <button class="

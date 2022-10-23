@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout.vue";
 
 <template>
   <Layout>
-    <section class="mb-32 text-gray-800">
+    <section class="mb-32 text-gray-800 lg:mx-16">
       <div class="flex flex-wrap">
         <div class="grow-0 shrink-0 basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
           <h2 class="text-3xl font-bold mb-6">Contact us</h2>
