@@ -17,9 +17,12 @@
   shadow-lg
   navbar navbar-expand-lg navbar-light
   mb-6
+  sticky
+  top-0
+  z-30
   ">
       
-    <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+    <div class="container-fluid w-full flex flex-wrap items-center justify-between h-11 px-6">
       <div class="container-fluid">
         <router-link class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" to="/">
           <img class="mr-2" src="../../assets/IconOnly_NoBuffer.png" style="height: 20px" alt="Logo" loading="lazy" />
@@ -47,8 +50,8 @@
       <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent">
       
         <!-- Left links -->
-        <ul class="navbar-nav flex flex-col items-end pl-0 list-style-none ml-auto">
-          <li class="nav-item pr-2">
+        <ul class="navbar-nav flex flex-col items-center pl-0 list-style-none ml-auto z-10">
+          <li class="nav-item pr-2 bg-light">
             <router-link class="nav-link text-gray-500 hover:text-gray-700 focus:text-gray-700 p-0" to="/about">About
             </router-link>
           </li>
@@ -68,3 +71,25 @@
     </div>
   </nav>
 </template>
+
+<style>
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .mt-18px {
+    margin-top:18px;
+  }
+
+  .show>.navbar-nav,
+  .collapsing>.navbar-nav {
+    @apply bg-gray-50 shadow-md mx-auto mt-18px py-4 w-2/3 divide-y
+  }
+
+  .collapsing .nav-item,
+  .show .nav-item {
+    @apply font-bold py-2 w-full text-center 
+  }
+}
+
+</style>

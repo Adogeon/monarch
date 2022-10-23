@@ -5,7 +5,7 @@
 
 <template>
   <NavBarVue />
-  <main class="content flex flex-col justify-center">
+  <main class="content flex flex-col justify-center z-0">
     <slot />
   </main>
   <Footer/>
@@ -14,6 +14,7 @@
 <style>
 .content {
       min-height: calc(100vh - 164px);
+      
       /* 80px header + 40px footer = 120px  */
     }
 </style>
