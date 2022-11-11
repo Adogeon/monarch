@@ -26,7 +26,7 @@
       <div class="container-fluid">
         <router-link class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" to="/">
           <img class="mr-2" src="../../assets/IconOnly_NoBuffer.png" style="height: 2.75rem" alt="Logo" loading="lazy" />
-          <span class="text-3xl font-bold">Monarch Construction</span>
+          <span class="text-3xl font-bold">Monarch Builder Corp</span>
         </router-link>
       </div>
       <button class="
