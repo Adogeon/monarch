@@ -1,10 +1,11 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 import ContactPage from "./ContactPage.vue";
 import AboutPage from "./AboutPage.vue";
 import HomePage from "./HomePage.vue";
 import ProjectPage from "./ProjectPage.vue";
 import ServicePage from "./ServicePage.vue";
+import SingleProjectPage from "./SingleProject.vue";
 
 const routes = [
 	{ path: "/", component: HomePage },
@@ -12,10 +13,11 @@ const routes = [
 	{ path: "/project", component: ProjectPage },
 	{ path: "/service", component: ServicePage },
 	{ path: "/contact", component: ContactPage },
+	{ path: "/single", component: SingleProjectPage },
 ];
 
 const router = createRouter({
-	history: createWebHashHistory(),
+	history: createWebHistory(),
 	routes,
 });
 
