@@ -9,8 +9,8 @@ import Layout from '../components/layout/Layout.vue';
       <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
               height: calc(100vh - 124px);
             ">
-            <video id="background-video" autoplay loop muted poster="src\assets\OpeningPoster.png" class="h-full w-full object-cover">
-              <source src="src\assets\pexels-richard-he-5567711.mp4" type="video/mp4">
+            <video id="background-video" autoplay loop muted poster="/src/assets/Opening-Poster.png" class="h-full w-full object-cover">
+              <source src="/src/assets/pexels-richard-he-5567711.mp4" type="video/mp4">
             </video>
         <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
           style="background-color: rgba(0, 0, 0, 0.75)">
