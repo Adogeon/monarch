@@ -1,14 +1,15 @@
 <script setup>
 import Layout from '../components/layout/Layout.vue';
 
+import { useRouter } from "vue-router";
+const router = useRouter()
+
 </script>
 
 <template>
   <Layout>
       <section class="sec-height" id="welcomeArea">
-      <div class="relative overflow-hidden bg-no-repeat bg-cover" style="
-              height: calc(100vh - 124px);
-            ">
+      <div class="relative overflow-hidden bg-no-repeat bg-cover" style="height: calc(100vh - 124px);">
             <video id="background-video" autoplay loop muted poster="/src/assets/Opening-Poster.png" class="h-full w-full object-cover">
               <source src="/src/assets/pexels-richard-he-5567711.mp4" type="video/mp4">
             </video>
@@ -21,7 +22,7 @@ import Layout from '../components/layout/Layout.vue';
               </h1>
               <button type="button"
                 class="inline-block px-7 py-3 border-2 border-white text-white font-medium text-sm leading-snug uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                data-mdb-ripple="true" data-mdb-ripple-color="light">
+                data-mdb-ripple="true" data-mdb-ripple-color="light" @click="router.push({path:'/about'})">
                 Get started
               </button>
             </div>
