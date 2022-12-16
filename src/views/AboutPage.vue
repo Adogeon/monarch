@@ -35,8 +35,8 @@ import Layout from "../components/layout/Layout.vue";
               style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px)">
               <h2 class="text-3xl font-bold mb-6">Our commitment to safety</h2>
               <p class="text-gray-500 mb-6 pb-2 lg:pb-0">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A soluta corporis
-                voluptate ab error quam dolores doloremque, quae consectetur.
+                During our years in construction, we have never had a single accident due to our safety focused superintendents. We
+                ensure our workers to follow these steps below to achieve safe workplace for our worker and customer:
               </p>
     
               <div class="flex flex-col  md:justify-around lg:justify-between mb-6 mx-auto">
