@@ -14,19 +14,12 @@ import Layout from "../components/layout/Layout.vue";
           <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
             <div class="px-6 py-12 md:px-12">
               <h2 class="text-2xl font-bold mb-4">Who are we?</h2>
-              <p class="text-gray-500 mb-6">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum maxime voluptas
-                ipsam aliquam itaque cupiditate provident architecto expedita harum culpa odit,
-                inventore rem molestias laborum repudiandae corporis pariatur quo eius iste!
-                Quaerat, assumenda voluptates! Molestias, recusandae? Maxime fuga omnis ducimus.
-              </p>
               <p class="text-gray-500">
-                Commodi ut nisi assumenda alias maxime necessitatibus ad rem repellat explicabo,
-                reiciendis illum suscipit iusto? Provident dignissimos similique, reiciendis
-                inventore accusantium unde mollitia, deleniti quae atque error id perspiciatis
-                illum. Laboriosam aperiam ab illo dignissimos obcaecati corporis similique a odio,
-                optio iste quis placeat alias amet rerum sint quos dolor pariatur inventore
-                possimus ad consequuntur fugiat perferendis consectetur laudantium.
+              MONARCH BUILDERS CORP is a local construction company that has been in the real estate and construction business for
+              over a decade. We give our clients the best of both worlds, a first impression builds to last. If you dream it, we can
+              create the culture to bring your vision to life. Our team is driven with instinctive passion and is relentless,
+              determined to deliver unmatched services in both industries. We’re excited for the next chapter of our company and the
+              journeys ahead!
               </p>
             </div>
           </div>
