@@ -9,7 +9,7 @@ import Layout from "../components/layout/Layout.vue";
         <div class="container mx-auto xl:px-32">
           <div class="grid lg:grid-cols-2 flex items-center">
             <div class="md:mt-12 lg:mt-0 mb-12 lg:mb-0">
-              <div class="block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14"
+              <div class="block relative rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-14 card-container"
                 style="background: hsla(0, 0%, 100%, 0.55); backdrop-filter: blur(30px)">
                 <h2 class="text-3xl font-bold mb-12">Contact us</h2>
                 <p class="text-gray-500 mb-6">
@@ -88,7 +88,10 @@ import Layout from "../components/layout/Layout.vue";
 <style>
 .map-container {
   height: 700px;
-  z-index: -1;
+  z-index: 10;
+}
+.card-container {
+  z-index: 20;
 }
 </style>
 
