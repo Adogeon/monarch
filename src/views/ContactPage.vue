@@ -20,11 +20,11 @@ import Layout from "../components/layout/Layout.vue";
                 </p>
                 <address>
                   <p class="text-gray-500 mb-2">4455 Murphy Canyon Road</p>
-                  <p class="text-gray-500 mb-2">San Diego, CA 92023</p>
+                  <p class="text-gray-500 mb-2">San Diego, CA 92123</p>
                   <p class="text-gray-500 mb-2">(858) 414-6932</p>
-                  <p class="text-gray-500 mb-2">info@monarchbuilders.net</p>
+                  <p class="text-gray-500 mb-2"><a href="mailto:info@monarchbuilder.net" class="hover:underline underline-offset-4">info@monarchbuilders.net</a></p>
                 </address>
-                <div class="flex justify-center mt-2">
+                <div class="flex justify-center mt-4">
                   <a href="https://www.facebook.com/profile.php?id=100086153693026" class="mr-9 text-gray-800 w-6 h-6">
                     <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square"
                       class="svg-inline--fa fa-facebook-square" xmlns="http://www.w3.org/2000/svg"
