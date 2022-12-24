@@ -5,7 +5,7 @@ import Layout from '../components/layout/Layout.vue';
 
 <template>
   <Layout>
-      <section class="mb-32 text-gray-800 text-center lg:text-left ">
+      <section class="mt-6 mb-32 text-gray-800 text-center lg:text-left ">
         <h2 class="text-3xl font-bold mb-12 text-center">Projects we are proud of</h2>
         <div class="grid lg:grid-cols-3 gap-x-6 lg:mx-16">
           <div class="mb-12 lg:mb-0">

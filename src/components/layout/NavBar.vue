@@ -16,7 +16,6 @@
   focus:text-gray-700
   shadow-lg
   navbar navbar-expand-lg navbar-light
-  mb-6
   sticky
   top-0
   z-30

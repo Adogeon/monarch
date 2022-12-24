@@ -5,7 +5,7 @@ import Layout from '../components/layout/Layout.vue';
 
 <template>
   <Layout>
-    <section class="mb-12 mx-12 text-gray-800">
+    <section class="mt-6 mb-12 mx-12 text-gray-800">
       <div class="flex justify-center rounded-lg border shadow-lg bg-white ">
         <div class="flex items-center mx-auto">
           <div class="grow-0 shrink-0 basis-auto w-full xl:w-8/12">
@@ -72,7 +72,7 @@ import Layout from '../components/layout/Layout.vue';
         </div>
       </div>
     </section>
-    <section class="mb-32 mx-12 text-gray-800">
+    <section class="mb-12 mx-12 text-gray-800">
       <div class="flex justify-center rounded-lg border shadow-lg bg-white">
         <div class="flex flex-wrap items-center">
           <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">

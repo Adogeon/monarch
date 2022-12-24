@@ -13,7 +13,7 @@
 
 <style>
 .content {
-      min-height: calc(100vh - 164px);
+      min-height: calc(100vh - 148px);
       
       /* 104px header + 40px footer = 120px  */
     }

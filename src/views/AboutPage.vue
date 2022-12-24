@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout.vue";
 
 <template>
   <Layout>
-    <section class="mb-32 text-gray-800 px-12">
+    <section class="mt-6 mb-16 text-gray-800 px-12">
       <div class="block rounded-lg shadow-lg bg-white">
         <div class="flex flex-wrap items-center">
           <div class="hidden lg:flex grow-0 shrink-0 basis-auto lg:w-6/12 xl:w-4/12">
@@ -26,7 +26,7 @@ import Layout from "../components/layout/Layout.vue";
         </div>
       </div>
     </section>
-    <section class="mb-32 text-gray-800 px-12">
+    <section class="text-gray-800 px-12">
       <!-- Jumbotron -->
       <div class="container mx-auto xl:px-32 text-center lg:text-left">
         <div class="grid lg:grid-cols-2 flex items-center">

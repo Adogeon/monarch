@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout.vue";
 
 <template>
   <Layout>
-    <section class="mb-32 text-gray-800 text-center">
+    <section class="mt-6 mb-6 text-gray-800 text-center">
       <div class="px-6 py-12 md:px-12">
         <div class="container mx-auto xl:px-32">
           <div class="grid lg:grid-cols-2 flex items-center">

@@ -5,7 +5,7 @@
 
 <template>
   <Layout>
-    <section class="mb-32 text-gray-800">
+    <section class="mt-6 mb-32 text-gray-800">
       
       <h2 class="text-3xl font-bold mb-12 text-center">
         Projects we are<u class="text-blue-600"> proud of</u>

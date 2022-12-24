@@ -8,8 +8,8 @@ const router = useRouter()
 
 <template>
   <Layout>
-      <section class="sec-height" id="welcomeArea">
-      <div class="relative overflow-hidden bg-no-repeat bg-cover" style="height: calc(100vh - 124px);">
+      <section id="welcomeArea">
+      <div class="relative overflow-hidden bg-no-repeat bg-cover" style="height: 100%;">
             <video id="background-video" autoplay loop muted poster="/src/assets/Opening-Poster.png" class="h-full w-full object-cover">
               <source src="/src/assets/pexels-richard-he-5567711.mp4" type="video/mp4">
             </video>
