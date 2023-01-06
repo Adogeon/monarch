@@ -1,7 +1,7 @@
 <script setup>
 //import important component
 // probably fetch data
-import layout from '../components/layout/Layout.vue';
+import layout from '../layout/Layout.vue';
 
 import { ref } from 'vue';
 
@@ -28,16 +28,25 @@ const imgLinks = [
   "https://via.placeholder.com/1024x512/BA73BE/FFFFFF.png?text=image+8",
 ]
 
+const imgLinks2 = [
+  "https://drive.google.com/uc?id=1Khn7EqxTQpJiMs_in0pqsyb1e4G0t3a0",
+  "https://drive.google.com/uc?id=1ZHzGrDA7-H60-lvuYKj3xGQ5UyZ1Z20X",
+  "https://drive.google.com/uc?id=1MqS8PVxo0BssbPJTsFDOVsd-OyKyGfk5",
+  "https://drive.google.com/uc?id=1i7toiMAMs1jmwEc7MkpMdIlj7eOqlK0w",
+  "https://drive.google.com/uc?id=1PqeAy-_oyMGFkVAlJjKRh2dDVUpdGTfX",
+  "https://drive.google.com/uc?id=1CSWsJUBuTeJC5kavBN3DabQpuX6jymEx"
+]
+
 </script>
 
 <template>
   <layout>
-    <section class="flex flex-col mx-8 md:mx-32 " id="image-galery">
-      <section class="mb-8" id="image-window">
+    <section class="flex flex-col md:h-fit mx-8 py-4 md:mx-32  " id="image-galery">
+      <section class="basis-2/3 mb-4" id="image-window">
         <!--image go here-->
         <div class="flex flex-row">
-          <div class="basis-2/3 mr-8" style="height: '32rem'" id="img-wrapper">
-            <img class="object-cover h-full w-m-full" :src="imgLinks[imgLinkPnt]" />
+          <div class="basis-2/3 mr-8" style="height: '32rem';" id="img-wrapper">
+            <img class="object-cover h-full w-m-full" :src="imgLinks2[imgLinkPnt]" />
           </div>
           <div class="basis-1/3 ml-8" id="desc">
             <section class="flex flex-col">
@@ -51,15 +60,15 @@ const imgLinks = [
           </div>
         </div>
       </section>
-      <section id="image-picker">
+      <section id="basis-1/3 image-picker">
         <div class="overflow-hidden" id="pickers-window">
             <!--image list go here-->
             <div class="overflow-x-auto">
               <ul class="flex gap-1" id="pickers-content">
-                <li v-for="(item, index) in imgLinks">
+                <li v-for="(item, index) in imgLinks2">
                   <button type="button" @click="goToImgIndex(index)">
                     <div class="h-24 w-48" style="background-color: aqua;">
-                      <img class="object-fill h-full w-full" :src="item" />
+                      <img class="object-cover h-full w-full" :src="item" />
                     </div>
                   </button>
                 </li>

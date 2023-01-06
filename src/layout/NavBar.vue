@@ -24,7 +24,7 @@
     <div class="container-fluid w-full flex flex-wrap items-center justify-between h-11 px-6">
       <div class="container-fluid">
         <router-link class="flex items-center text-gray-900 hover:text-gray-900 focus:text-gray-900 mt-2 lg:mt-0 mr-1" to="/">
-          <img class="mr-2 object-scale-down" src="../../assets/full-logo-3.png" style="height: 3rem" alt="Logo" loading="lazy" />
+          <img class="mr-2 object-scale-down" src="../assets/full-logo-3.png" style="height: 3rem" alt="Logo" loading="lazy" />
           <!--<span class="text-3xl font-bold">Monarch Builder Corp</span>-->
         </router-link>
       </div>
